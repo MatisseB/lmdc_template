@@ -1,1 +1,0 @@
-# lmdc_template

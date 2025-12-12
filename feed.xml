@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Le Monde de Camille</title>
+    <link href="https://matisseb.github.io/lmdc_template/feed.xml" rel="self" />
+    <link href="https://matisseb.github.io/lmdc_template" />
+    <updated>2025-12-12T19:52:12+01:00</updated>
+    <author>
+        <name>Matisse</name>
+    </author>
+    <id>https://matisseb.github.io/lmdc_template</id>
+
+    <entry>
+        <title>A cheval !</title>
+        <author>
+            <name>Matisse</name>
+        </author>
+        <link href="https://matisseb.github.io/lmdc_template/post/a-cheval/"/>
+        <id>https://matisseb.github.io/lmdc_template/post/a-cheval/</id>
+
+        <updated>2018-11-22T19:50:00+01:00</updated>
+            <summary>
+                <![CDATA[
+                    Reprise du cheval pour Camille après plusieurs années d’interruption pour cause de genouX non opérationnels. Elle n’a rien oublié malgré cette longue pause. Trop trop&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    Reprise du cheval pour Camille après plusieurs années d’interruption pour cause de genouX non opérationnels.<br><br>Elle n’a rien oublié malgré cette longue pause. Trop trop heureuse !
+  </p>
+
+  <div  class="gallery-wrapper gallery-wrapper--wide">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://matisseb.github.io/lmdc_template/media/posts/8/gallery/20181121_112630_resized-576x1024.jpg" data-size="576x1024">
+        <img loading="lazy" src="https://matisseb.github.io/lmdc_template/media/posts/8/gallery/20181121_112630_resized-576x1024-thumbnail.jpg" height="1024" width="576" alt="" >
+      </a>
+      
+    </figure><figure class="gallery__item">
+      <a href="https://matisseb.github.io/lmdc_template/media/posts/8/gallery/20181121_114205_resized-576x1024.jpg" data-size="576x1024">
+        <img loading="lazy" src="https://matisseb.github.io/lmdc_template/media/posts/8/gallery/20181121_114205_resized-576x1024-thumbnail.jpg" height="1024" width="576" alt="" >
+      </a>
+      
+    </figure>
+    </div>
+  </div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Bravo Camille !</title>
+        <author>
+            <name>Matisse</name>
+        </author>
+        <link href="https://matisseb.github.io/lmdc_template/post/bravo-camille/"/>
+        <id>https://matisseb.github.io/lmdc_template/post/bravo-camille/</id>
+
+        <updated>2018-10-22T19:49:00+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Camille vient de terminer un stage de deux semaines dans un ESAT. Changement d’environnement, de rythme, d’encadrants, de « collègues »… tout était différent mais&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://matisseb.github.io/lmdc_template/media/posts/7/IMG_20181019_082150-300x225.jpg" height="225" width="300" alt=""  sizes="(max-width: 1200px) 100vw, 1200px" srcset="https://matisseb.github.io/lmdc_template/media/posts/7/responsive/IMG_20181019_082150-300x225-xs.jpg 300w ,https://matisseb.github.io/lmdc_template/media/posts/7/responsive/IMG_20181019_082150-300x225-sm.jpg 480w ,https://matisseb.github.io/lmdc_template/media/posts/7/responsive/IMG_20181019_082150-300x225-md.jpg 749w ,https://matisseb.github.io/lmdc_template/media/posts/7/responsive/IMG_20181019_082150-300x225-xl.jpg 1200w">
+      
+    </figure>
+
+  <p>
+    Camille vient de terminer un stage de deux semaines dans un ESAT.<br><br>Changement d’environnement, de rythme, d’encadrants, de « collègues »… tout était différent mais elle a brillamment relevé le défi. Départ à fond tous les matins et retour enthousiasmée.<br><br>Bravo ma Camille ! Tout le monde est fier de toi.
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>

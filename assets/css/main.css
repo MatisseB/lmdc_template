@@ -1,0 +1,38 @@
+/*
+ * Le Monde de Camille - Main Stylesheet
+ * Modernized 3-column layout theme for Publii
+ *
+ * This file imports all component stylesheets.
+ * Colors are customizable via Publii Theme Settings (theme-variables.js)
+ */
+
+/* ===================
+   COMPONENT IMPORTS
+   =================== */
+
+/* Variables & Design Tokens (fallback values) */
+@import url("components/_variables.css");
+
+/* Base styles: Reset, Typography, Accessibility */
+@import url("components/_base.css");
+
+/* Layout: Header, Footer, Content wrapper */
+@import url("components/_layout.css");
+
+/* Navigation: Menu, Submenu, Search, Mobile toggle */
+@import url("components/_navigation.css");
+
+/* Sidebar: Sections, Widgets, Social, Tags */
+@import url("components/_sidebar.css");
+
+/* Posts: List view, Cards */
+@import url("components/_posts.css");
+
+/* Single Post: Full article, Author bio, Navigation, Related */
+@import url("components/_single-post.css");
+
+/* Utilities: Pagination, Forms, Buttons, 404, Animations */
+@import url("components/_utilities.css");
+
+/* Responsive: Breakpoints for tablets, mobile, print */
+@import url("components/_responsive.css");

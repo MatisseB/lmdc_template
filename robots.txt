@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://matisseb.github.io/lmdc_template/sitemap.xml

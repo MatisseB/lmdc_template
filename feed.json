@@ -1,0 +1,42 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Le Monde de Camille",
+    "description": "",
+    "home_page_url": "https://matisseb.github.io/lmdc_template",
+    "feed_url": "https://matisseb.github.io/lmdc_template/feed.json",
+    "user_comment": "",
+    "icon": "https://matisseb.github.io/lmdc_template/media/website/image_header-2.png",
+    "author": {
+        "name": "Matisse"
+    },
+    "items": [
+        {
+            "id": "https://matisseb.github.io/lmdc_template/post/a-cheval/",
+            "url": "https://matisseb.github.io/lmdc_template/post/a-cheval/",
+            "title": "A cheval !",
+            "summary": "Reprise du cheval pour Camille après plusieurs années d’interruption pour cause de genouX non opérationnels. Elle n’a rien oublié malgré cette longue pause. Trop trop&hellip;",
+            "content_html": "\n  <p>\n    Reprise du cheval pour Camille après plusieurs années d’interruption pour cause de genouX non opérationnels.<br><br>Elle n’a rien oublié malgré cette longue pause. Trop trop heureuse !\n  </p>\n\n  <div  class=\"gallery-wrapper gallery-wrapper--wide\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://matisseb.github.io/lmdc_template/media/posts/8/gallery/20181121_112630_resized-576x1024.jpg\" data-size=\"576x1024\">\n        <img loading=\"lazy\" src=\"https://matisseb.github.io/lmdc_template/media/posts/8/gallery/20181121_112630_resized-576x1024-thumbnail.jpg\" height=\"1024\" width=\"576\" alt=\"\" >\n      </a>\n      \n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://matisseb.github.io/lmdc_template/media/posts/8/gallery/20181121_114205_resized-576x1024.jpg\" data-size=\"576x1024\">\n        <img loading=\"lazy\" src=\"https://matisseb.github.io/lmdc_template/media/posts/8/gallery/20181121_114205_resized-576x1024-thumbnail.jpg\" height=\"1024\" width=\"576\" alt=\"\" >\n      </a>\n      \n    </figure>\n    </div>\n  </div>",
+            "author": {
+                "name": "Matisse"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-11-22T19:50:00+01:00",
+            "date_modified": "2025-12-12T19:52:12+01:00"
+        },
+        {
+            "id": "https://matisseb.github.io/lmdc_template/post/bravo-camille/",
+            "url": "https://matisseb.github.io/lmdc_template/post/bravo-camille/",
+            "title": "Bravo Camille !",
+            "summary": "Camille vient de terminer un stage de deux semaines dans un ESAT. Changement d’environnement, de rythme, d’encadrants, de « collègues »… tout était différent mais&hellip;",
+            "content_html": "\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://matisseb.github.io/lmdc_template/media/posts/7/IMG_20181019_082150-300x225.jpg\" height=\"225\" width=\"300\" alt=\"\"  sizes=\"(max-width: 1200px) 100vw, 1200px\" srcset=\"https://matisseb.github.io/lmdc_template/media/posts/7/responsive/IMG_20181019_082150-300x225-xs.jpg 300w ,https://matisseb.github.io/lmdc_template/media/posts/7/responsive/IMG_20181019_082150-300x225-sm.jpg 480w ,https://matisseb.github.io/lmdc_template/media/posts/7/responsive/IMG_20181019_082150-300x225-md.jpg 749w ,https://matisseb.github.io/lmdc_template/media/posts/7/responsive/IMG_20181019_082150-300x225-xl.jpg 1200w\">\n      \n    </figure>\n\n  <p>\n    Camille vient de terminer un stage de deux semaines dans un ESAT.<br><br>Changement d’environnement, de rythme, d’encadrants, de « collègues »… tout était différent mais elle a brillamment relevé le défi. Départ à fond tous les matins et retour enthousiasmée.<br><br>Bravo ma Camille ! Tout le monde est fier de toi.\n  </p>\n\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "Matisse"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-10-22T19:49:00+02:00",
+            "date_modified": "2025-12-12T19:50:27+01:00"
+        }
+    ]
+}
