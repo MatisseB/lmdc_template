@@ -248,6 +248,14 @@ aside {
    border-radius: 8px;
 }
 
+.sidebar-section {
+   margin-bottom: 2.5rem;
+}
+
+.sidebar-section:last-child {
+   margin-bottom: 0;
+}
+
 aside h3 {
    margin-bottom: 1rem;
    font-size: 1.25rem;
@@ -265,6 +273,27 @@ aside ul li {
 
 aside ul li:last-child {
    border-bottom: none;
+}
+
+.sidebar-authors .author-item {
+   display: flex;
+   align-items: center;
+   gap: 0.75rem;
+}
+
+.sidebar-authors .author-avatar img {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+.sidebar-authors .author-name {
+   font-weight: 500;
+}
+
+.sidebar-authors .author-name sup {
+   color: #666;
+   font-size: 0.8em;
 }
 
 /*** Pagination ***/
@@ -637,4 +666,29 @@ hr {
 
 .active-parent > a {
    color: var(--secondary-color);
+}
+
+/*** Error Page ***/
+.error-page {
+   text-align: center;
+   padding: 4rem 2rem;
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+.error-page h1 {
+   font-size: 4rem;
+   margin-bottom: 1rem;
+   color: var(--secondary-color);
+}
+
+.error-page p {
+   font-size: 1.1rem;
+   margin-bottom: 2rem;
+   line-height: 1.6;
+}
+
+.error-page .button {
+   display: inline-block;
+   margin-top: 1rem;
 }
