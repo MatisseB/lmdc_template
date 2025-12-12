@@ -11,28 +11,28 @@
    =================== */
 
 /* Variables & Design Tokens (fallback values) */
-@import url("components/_variables.css");
+@import url("components/variables.css");
 
 /* Base styles: Reset, Typography, Accessibility */
-@import url("components/_base.css");
+@import url("components/base.css");
 
 /* Layout: Header, Footer, Content wrapper */
-@import url("components/_layout.css");
+@import url("components/layout.css");
 
 /* Navigation: Menu, Submenu, Search, Mobile toggle */
-@import url("components/_navigation.css");
+@import url("components/navigation.css");
 
 /* Sidebar: Sections, Widgets, Social, Tags */
-@import url("components/_sidebar.css");
+@import url("components/sidebar.css");
 
 /* Posts: List view, Cards */
-@import url("components/_posts.css");
+@import url("components/posts.css");
 
 /* Single Post: Full article, Author bio, Navigation, Related */
-@import url("components/_single-post.css");
+@import url("components/single-post.css");
 
 /* Utilities: Pagination, Forms, Buttons, 404, Animations */
-@import url("components/_utilities.css");
+@import url("components/utilities.css");
 
 /* Responsive: Breakpoints for tablets, mobile, print */
-@import url("components/_responsive.css");
+@import url("components/responsive.css");
