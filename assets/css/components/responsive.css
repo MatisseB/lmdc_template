@@ -407,11 +407,10 @@
 
     /* Back to top */
     .back-to-top {
-        bottom: var(--spacing-sm);
-        right: var(--spacing-sm);
-        width: 32px;
-        height: 32px;
-        font-size: 0.85rem;
+        bottom: var(--spacing-md);
+        right: var(--spacing-md);
+        width: 44px;
+        height: 44px;
     }
 
     /* Sidebar */
@@ -499,15 +498,6 @@
     .footer-copyright,
     .footer-credits {
         font-size: 0.65rem;
-    }
-
-    /* Back to top - extra small */
-    .back-to-top {
-        bottom: var(--spacing-xs);
-        right: var(--spacing-xs);
-        width: 28px;
-        height: 28px;
-        font-size: 0.75rem;
     }
 
     .sidebar {
