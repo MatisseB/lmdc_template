@@ -52,7 +52,7 @@ main {
 
 /* Sidebar position via parent class */
 #content-wrapper.sidebar-left {
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 #content-wrapper.sidebar-right {
@@ -399,10 +399,12 @@ footer {
    Main breakpoints are in _responsive.css
    =================== */
 
-/* Three-column layout only on screens > 992px */
+/* Responsive: Sidebar stacks below main on smaller screens */
 @media (max-width: 992px) {
-    #content-wrapper {
-        flex-direction: column;
+    #content-wrapper,
+    #content-wrapper.sidebar-left,
+    #content-wrapper.sidebar-right {
+        flex-direction: column !important;
         width: 90%;
         max-width: 800px;
         padding: 0 var(--spacing-md);
@@ -412,12 +414,12 @@ footer {
     main {
         width: 100%;
         max-width: 100%;
-        order: 1;
+        order: 1 !important;
     }
 
     .sidebar {
         width: 100%;
-        order: 2;
+        order: 2 !important;
     }
 }
 

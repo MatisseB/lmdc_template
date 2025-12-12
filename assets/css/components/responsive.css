@@ -109,8 +109,11 @@
         padding: var(--spacing-sm) var(--spacing-md);
     }
 
-    #content-wrapper {
-        flex-direction: column;
+    /* Force column layout regardless of sidebar position */
+    #content-wrapper,
+    #content-wrapper.sidebar-left,
+    #content-wrapper.sidebar-right {
+        flex-direction: column !important;
         width: 90%;
         max-width: 800px;
         padding: 0 var(--spacing-md);
@@ -119,13 +122,13 @@
 
     main {
         width: 100%;
-        order: 1;
+        order: 1 !important;
         flex: none;
     }
 
     .sidebar {
         width: 100%;
-        order: 2;
+        order: 2 !important;
     }
 
     /* Sidebar sections full width in grid */
@@ -261,9 +264,11 @@
         margin-left: var(--spacing-md);
     }
 
-    /* Layout - stack columns */
-    #content-wrapper {
-        flex-direction: column;
+    /* Layout - stack columns, sidebar always below main */
+    #content-wrapper,
+    #content-wrapper.sidebar-left,
+    #content-wrapper.sidebar-right {
+        flex-direction: column !important;
         width: 95%;
         padding: 0 var(--spacing-sm);
         gap: var(--spacing-md);
@@ -273,13 +278,13 @@
         width: 100%;
         max-width: 100%;
         padding: var(--spacing-md);
-        order: 1;
+        order: 1 !important;
         border-radius: var(--radius-md);
     }
 
     .sidebar {
         width: 100%;
-        order: 2;
+        order: 2 !important;
         display: block;
     }
 
