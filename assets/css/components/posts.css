@@ -116,6 +116,9 @@ article:last-child {
     flex-direction: column;
     flex: 1;
     background: var(--body-bg);
+    overflow: hidden;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 /* ===================
@@ -155,14 +158,20 @@ article:last-child {
     font-weight: 600;
     line-height: 1.25;
     letter-spacing: 0.01em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .post-title a {
     color: var(--nav-bg);
     text-decoration: none;
     transition: all var(--transition-base);
-    display: inline-block;
+    display: block;
     position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .post-title a::after {
@@ -309,6 +318,7 @@ article:last-child {
 .read-more-btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: var(--spacing-xs);
     padding: var(--spacing-sm) var(--spacing-md);
     background: var(--primary-color);
@@ -319,6 +329,9 @@ article:last-child {
     text-decoration: none;
     transition: all var(--transition-fast);
     white-space: nowrap;
+    box-sizing: border-box;
+    width: fit-content;
+    max-width: calc(100% - var(--spacing-md));
 }
 
 .read-more-btn:hover {
@@ -729,7 +742,7 @@ article:last-child {
     }
 
     .post-title {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
 
     .post-title a:hover {
@@ -737,7 +750,8 @@ article:last-child {
     }
 
     .single-post .post-title {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
+        line-height: 1.25;
     }
 
     .post-meta {
@@ -784,7 +798,8 @@ article:last-child {
     }
 
     .read-more-btn {
-        width: 100%;
-        justify-content: center;
+        width: fit-content;
+        max-width: calc(100% - var(--spacing-sm));
+        margin: 0 auto;
     }
 }

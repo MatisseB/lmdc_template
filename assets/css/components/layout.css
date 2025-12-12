@@ -405,16 +405,17 @@ footer {
     #content-wrapper.sidebar-left,
     #content-wrapper.sidebar-right {
         flex-direction: column !important;
-        width: 90%;
-        max-width: 800px;
-        padding: 0 var(--spacing-md);
-        gap: var(--spacing-lg);
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        gap: var(--spacing-md);
     }
 
     main {
         width: 100%;
         max-width: 100%;
         order: 1 !important;
+        border-radius: 0;
     }
 
     .sidebar {

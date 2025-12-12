@@ -269,9 +269,19 @@
     #content-wrapper.sidebar-left,
     #content-wrapper.sidebar-right {
         flex-direction: column !important;
-        width: 95%;
-        padding: 0 var(--spacing-sm);
-        gap: var(--spacing-md);
+        width: 100%;
+        padding: 0;
+        gap: 0;
+        margin-top: 0;
+    }
+
+    header {
+        margin-bottom: 0;
+    }
+
+    footer {
+        margin-top: 0;
+        border-top: none;
     }
 
     main {
@@ -279,13 +289,18 @@
         max-width: 100%;
         padding: var(--spacing-md);
         order: 1 !important;
-        border-radius: var(--radius-md);
+        border-radius: 0;
+    }
+
+    /* Hide post meta on small screens, keep only title */
+    .single-post .post-meta,
+    .single-post .post-category,
+    .post-item .post-meta {
+        display: none;
     }
 
     .sidebar {
-        width: 100%;
-        order: 2 !important;
-        display: block;
+        display: none;
     }
 
     /* Ensure sidebar sections and titles are full width on mobile */
@@ -303,24 +318,29 @@
 
     /* Typography */
     h1 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 
     h2 {
-        font-size: 1.35rem;
+        font-size: 1.2rem;
     }
 
     h3 {
-        font-size: 1.15rem;
+        font-size: 1.05rem;
     }
 
     /* Posts */
     .post-title {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .single-post .post-title {
-        font-size: 1.6rem;
+        font-size: 1.1rem;
+        line-height: 1.2;
+    }
+
+    .single-post .post-header {
+        padding: var(--spacing-sm);
     }
 
     .post-meta {
@@ -417,14 +437,31 @@
         padding: var(--spacing-xs) var(--spacing-sm);
     }
 
-    #content-wrapper {
+    #content-wrapper,
+    #content-wrapper.sidebar-left,
+    #content-wrapper.sidebar-right {
         width: 100%;
-        padding: 0 var(--spacing-xs);
+        padding: 0;
+        gap: 0;
+        margin-top: 0;
+    }
+
+    header {
+        margin-bottom: 0;
+    }
+
+    footer {
+        margin-top: 0;
+        border-top: none;
+    }
+
+    .sidebar {
+        display: none;
     }
 
     main {
         padding: var(--spacing-sm);
-        border-radius: var(--radius-sm);
+        border-radius: 0;
     }
 
     .pagination {
@@ -448,7 +485,33 @@
 
     .error-404 h1,
     .error-page h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
+    }
+
+    /* Extra small screen typography */
+    h1 {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 0.95rem;
+    }
+
+    .post-title {
+        font-size: 0.95rem;
+    }
+
+    .single-post .post-title {
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+
+    .single-post .post-header {
+        padding: var(--spacing-xs);
     }
 
     /* Image alignment resets */

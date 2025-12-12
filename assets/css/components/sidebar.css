@@ -567,31 +567,8 @@ aside.sidebar {
    RESPONSIVE - Mobile
    =================== */
 @media (max-width: 768px) {
+    /* Hide sidebar completely on mobile */
     aside.sidebar {
-        display: block;
-        background: transparent;
-        padding: 0;
-        width: 100%;
-    }
-
-    .sidebar-section {
-        margin-bottom: var(--spacing-sm);
-        width: 100%;
-        display: block;
-    }
-
-    .sidebar-section h3 {
-        display: block;
-        width: 100%;
-        font-size: 0.85rem;
-        padding: var(--spacing-sm) var(--spacing-md);
-    }
-
-    .sidebar-section ul {
-        padding: var(--spacing-xs) var(--spacing-sm);
-    }
-
-    .sidebar-section li {
-        font-size: 0.85rem;
+        display: none;
     }
 }
