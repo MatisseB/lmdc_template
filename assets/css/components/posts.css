@@ -755,9 +755,12 @@ article:last-child {
     }
 
     .post-meta {
+        gap: var(--spacing-xs);
+    }
+
+    .post-item .post-meta {
         flex-direction: column;
         align-items: flex-start;
-        gap: var(--spacing-xs);
     }
 
     .post-nav,

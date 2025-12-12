@@ -14,12 +14,12 @@
    ============================================ */
 @media (min-width: 1401px) {
     #content-wrapper {
-        width: 90%;
-        gap: var(--spacing-xl);
+        width: 95%;
+        gap: var(--spacing-md);
     }
 
     .sidebar {
-        width: 320px;
+        width: 300px;
     }
 }
 
@@ -29,11 +29,11 @@
 @media (min-width: 1201px) and (max-width: 1400px) {
     #content-wrapper {
         width: 95%;
-        gap: var(--spacing-lg);
+        gap: var(--spacing-md);
     }
 
     .sidebar {
-        width: 280px;
+        width: 260px;
     }
 }
 
@@ -43,8 +43,8 @@
 @media (min-width: 993px) and (max-width: 1200px) {
     #content-wrapper {
         width: 98%;
-        gap: var(--spacing-md);
-        padding: 0 var(--spacing-sm);
+        gap: var(--spacing-sm);
+        padding: 0 var(--spacing-xs);
     }
 
     .sidebar {
@@ -292,13 +292,6 @@
         border-radius: 0;
     }
 
-    /* Hide post meta on small screens, keep only title */
-    .single-post .post-meta,
-    .single-post .post-category,
-    .post-item .post-meta {
-        display: none;
-    }
-
     .sidebar {
         display: none;
     }
@@ -343,10 +336,9 @@
         padding: var(--spacing-sm);
     }
 
-    .post-meta {
+    .post-item .post-meta {
         flex-direction: column;
         gap: var(--spacing-xs);
-        align-items: flex-start;
     }
 
     .post-footer {

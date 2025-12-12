@@ -15,7 +15,7 @@
 header {
     background: var(--header-bg);
     width: 100%;
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-sm);
     box-shadow: var(--shadow-medium);
     transition: box-shadow var(--transition-base);
 }
@@ -24,10 +24,10 @@ header {
     display: flex;
     flex-wrap: nowrap;
     max-width: var(--max-content-width);
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
-    gap: var(--spacing-xl);
+    padding: 0 var(--spacing-sm);
+    gap: var(--spacing-md);
     justify-content: center;
 }
 
@@ -36,8 +36,8 @@ main {
     min-width: 0;
     max-width: none;
     background: var(--content-bg);
-    padding: var(--spacing-xl);
-    border-radius: var(--radius-lg);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
     box-shadow: var(--shadow-medium);
 }
 
@@ -236,8 +236,8 @@ main {
    FOOTER
    =================== */
 footer {
-    padding: var(--spacing-xl) var(--spacing-lg);
-    margin-top: var(--spacing-2xl);
+    padding: var(--spacing-md) var(--spacing-sm);
+    margin-top: var(--spacing-md);
     text-align: center;
     color: var(--nav-text);
     font-size: 0.9rem;
